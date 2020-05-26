@@ -1,4 +1,7 @@
 # windows-C-plus-plus-configuration
+
+先下载个vscode ：https://code.visualstudio.com/
+
 minGW下载地址：
 
 链接：https://pan.baidu.com/s/1jDOJKHHQdFSdUbNLY7R5oA 
