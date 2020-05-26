@@ -74,13 +74,7 @@
         "string": "cpp",
         "view-in-browser.customBrowser":"chrome"
     },
-    "files.autoGuessEncoding": true,
-    "C_Cpp.errorSquiggles": "Disabled",
-    "editor.detectIndentation": false,
-    "python.pythonPath": "G:\\python\\python.exe",//python的 不配置这个可以不管
-    "python.linting.pylintArgs": [
-        "--generate-members"
-    ],
+
     "editor.suggest.shareSuggestSelections": true,
     
 }

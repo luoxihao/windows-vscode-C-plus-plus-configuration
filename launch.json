@@ -1,13 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": "Python:调试器",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
+        
         {
             "name": "万恶的c++调试器",
             "type": "cppdbg",
