@@ -1,4 +1,5 @@
 # windows-C-plus-plus-configuration
+#配置方法在这里！！！！
 
 先下载个vscode ：https://code.visualstudio.com/
 
