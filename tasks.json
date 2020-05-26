@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "label": "g++",
+    "command": "g++",
+    "args": [
+        "-g",
+        "-Wall",
+        "-std=c++11",
+        "-fexec-charset=GBK",
+        "-finput-charset=UTF-8",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
+    ], 
+    "problemMatcher": {
+        "owner": "cpp",
+        "fileLocation": [
+            "relative",
+            "\\"
+        ],
+        "pattern": {
+            "regexp": "^(.*)\\\\(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+            "file": 2,
+            "line": 3,
+            "column": 4,
+            "severity": 5,
+            "message": 6
+        }
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++",
+            "command": "G:\\MinGW64\\bin\\g++.exe",//这里需要路径到g++.exe
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "G:\\MinGW64\\bin"//这里到bin就ok了
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+    ]
+}
