@@ -5,9 +5,9 @@
 
 minGW下载地址：
 
-链接：https://pan.baidu.com/s/1jDOJKHHQdFSdUbNLY7R5oA 
+链接：https://pan.baidu.com/s/1gBaiUI-ITIquNe7-oP7Jaw
 
-提取码：z3hf
+提取码：r4r0
 
 下载minGW后把它随便放在一个文件夹中，再去配置环境变量：可以百度一下
 ```
